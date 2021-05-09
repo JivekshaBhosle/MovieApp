@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+
+    <string name="retry_text">Oops, something’s wrong!\nPlease tap the screen to reload.</string>
+
+</resources>

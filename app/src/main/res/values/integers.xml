@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="movie_title_maxlines">2</integer>
+    <integer name="shimmer_demo_angle">20</integer>
+    <integer name="shimmer_demo_child_count">10</integer>
+    <integer name="shimmer_demo_grid_child_count">2</integer>
+
+</resources>

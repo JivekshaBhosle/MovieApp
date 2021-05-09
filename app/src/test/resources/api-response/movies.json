@@ -1,0 +1,1352 @@
+{
+  "type": "page",
+  "pageType": "root",
+  "title": "Viaplay - Streama TV, Serier, Film och Sport online",
+  "description": "metadata.start.description2",
+  "styles": [],
+  "_links": {
+    "curies": [
+      {
+        "name": "viaplay",
+        "href": "http://docs.viaplay.tv/rel/{rel}",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://content.viaplay.se/androiddash-se"
+    },
+    "viaplay:root": {
+      "id": "root",
+      "title": "Start",
+      "href": "https://content.viaplay.se/androiddash-se{?dtg}",
+      "active": true
+    },
+    "viaplay:editorial": {
+      "id": "editorial",
+      "href": "https://content.viaplay.se/androiddash-se/editorial{?dtg}"
+    },
+    "viaplay:socket": {
+      "id": "socket",
+      "href": "https://socket.viaplay.se/"
+    },
+    "viaplay:socket2": {
+      "id": "socket",
+      "href": "https://socket2.viaplay.se/"
+    },
+    "viaplay:search": {
+      "title": "Sök",
+      "href": "https://content.viaplay.se/androiddash-se/search{?query,dtg}",
+      "templated": true
+    },
+    "viaplay:autocomplete": {
+      "title": "autocomplete",
+      "href": "https://content.viaplay.se/androiddash-se/autocomplete{?query,dtg}",
+      "templated": true
+    },
+    "viaplay:byGuid": {
+      "title": "byGuid",
+      "href": "https://content.viaplay.se/androiddash-se/byguid/{guid}{?returnFirstEpisode,seasonId,tveProgram,dtg}",
+      "templated": true
+    },
+    "viaplay:searchSuggestions": {
+      "title": "byGuids",
+      "href": "https://content.viaplay.se/androiddash-se/search-suggestions/{guids}{?dtg}",
+      "templated": true
+    },
+    "viaplay:validateSession": {
+      "id": "validateSession",
+      "href": "https://login.viaplay.se/api/validateSession/v1{?session}",
+      "templated": true
+    },
+    "viaplay:translations": {
+      "id": "translations",
+      "href": "https://cms-service.viaplay.com/translations/androiddash",
+      "templated": false
+    },
+    "viaplay:technotifier": {
+      "id": "technotifier",
+      "href": "https://viaplay.mtg-api.com/tech-notifications/v1/viaplay/sv-se/androiddash"
+    },
+    "viaplay:sections": [
+      {
+        "id": "35bb8a90-d40e-11e2-8b8b-0800200c9a66",
+        "title": "Serier",
+        "href": "https://content.viaplay.se/androiddash-se/serier{?dtg}",
+        "type": "vod",
+        "name": "series",
+        "templated": true
+      },
+      {
+        "id": "2037b330-d411-11e2-8b8b-0800200c9a66",
+        "title": "Film",
+        "href": "https://content.viaplay.se/androiddash-se/film{?dtg}",
+        "type": "vod",
+        "name": "movie",
+        "templated": true
+      },
+      {
+        "id": "8e5febf0-d4e0-11e2-8b8b-0800200c9a66",
+        "title": "Sport",
+        "href": "https://content.viaplay.se/androiddash-se/sport{?dtg}",
+        "type": "sport",
+        "name": "sport",
+        "templated": true
+      },
+      {
+        "id": "1a6a2ec0-d4e2-11e2-8b8b-0800200c9a66",
+        "title": "Barn",
+        "href": "https://content.viaplay.se/androiddash-se/barn{?dtg}",
+        "type": "vod",
+        "name": "kids",
+        "templated": true
+      },
+      {
+        "id": "85561ec0-d4e1-11e2-8b8b-0800200c9a66",
+        "title": "Hyr & köp",
+        "href": "https://content.viaplay.se/androiddash-se/store{?dtg}",
+        "type": "tvod",
+        "name": "rental",
+        "templated": true
+      }
+    ],
+    "viaplay:geolocation": {
+      "href": "https://viaplay.mtg-api.com/geolocation/viaplay/portability{?ip,country}"
+    },
+    "viaplay:retrieveUserInformation": {
+      "id": "retrieveUserInformation",
+      "href": "https://viaplay.mtg-api.com/user-information/{brand}/users/{userId}",
+      "method": "GET",
+      "templated": true
+    },
+    "viaplay:localizationLanguages": {
+      "id": "localizationLanguages",
+      "href": "https://viaplay.mtg-api.com/localization/languages/se",
+      "method": "GET"
+    },
+    "viaplay:localizationCountry": {
+      "id": "localizationCountry",
+      "href": "https://viaplay.mtg-api.com/localization/countries/{countryCode}",
+      "method": "GET",
+      "templated": true
+    },
+    "viaplay:userJourneyGetJourney": {
+      "id": "userJourneyGetJourney",
+      "href": "https://viaplay.mtg-api.com/user-journey/user/{userId}/profile/{profileId}/journey/{journeyId}",
+      "method": "GET",
+      "templated": true
+    },
+    "termsAndConditions": {
+      "id": "termsAndConditions",
+      "href": "https://appletv.viaplay.se/util/legalScreens/tosAsText?country=se",
+      "method": "GET"
+    },
+    "privacyPolicy": {
+      "id": "privacyPolicy",
+      "href": "https://appletv.viaplay.se/util/legalScreens/privacyPolicyAsText?country=se",
+      "method": "GET"
+    },
+    "cookiePolicy": {
+      "id": "cookiePolicy",
+      "href": "https://appletv.viaplay.se/util/legalScreens/cookiePolicyAsText?country=se",
+      "method": "GET"
+    },
+    "viaplay:login": {
+      "title": "Login",
+      "href": "https://login.viaplay.se/api/login/v1?deviceKey=androiddash-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fandroiddash-se{&username,password,persistent,forward}",
+      "templated": true
+    },
+    "viaplay:facebookLogin": {
+      "title": "Facebook Login",
+      "href": "https://login.viaplay.se/api/facebook/login?deviceKey=androiddash-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fandroiddash-se{&code,token,persistent}",
+      "templated": true
+    },
+    "viaplay:tokenLogin": {
+      "href": "https://login.viaplay.se/api/tokenLogin?deviceKey=androiddash-se{&accessToken,refreshToken,persistent,returnurl}",
+      "method": "GET",
+      "templated": true
+    },
+    "viaplay:tokenRefresh": {
+      "href": "https://login.viaplay.se/api/tokenRefresh/{userId}?deviceKey=androiddash-se",
+      "method": "POST",
+      "templated": true
+    },
+    "viaplay:setParentalControl": {
+      "id": "setParentalControl",
+      "href": "https://viaplay.mtg-api.com/identity/{brand}/users/{userId}/parental-control",
+      "method": "POST",
+      "templated": true
+    },
+    "viaplay:userPwdUpdate": {
+      "id": "userPwdUpdate",
+      "href": "https://viaplay.mtg-api.com/identity/{brand}/users/{userId}/password",
+      "method": "PUT",
+      "templated": true
+    },
+    "viaplay:userPwdLoginRequest": {
+      "id": "userPwdLoginRequest",
+      "href": "https://viaplay.mtg-api.com/identity/{brand}/auth/pwd/sessions",
+      "method": "POST",
+      "templated": true
+    },
+    "viaplay:passwordToken": {
+      "id": "createPasswordToken",
+      "href": "https://viaplay.mtg-api.com/identity/viaplay/emails/{email}/user/password-token",
+      "method": "POST",
+      "templated": true
+    },
+    "viaplay:resetPassword": {
+      "id": "resetPassword",
+      "href": "https://viaplay.mtg-api.com/identity/viaplay/passwords",
+      "method": "PUT"
+    },
+    "viaplay:retrieveUserEmail": {
+      "id": "retrieveUserEmail",
+      "href": "https://viaplay.mtg-api.com/identity/{brand}/reset-pwd-tokens/{+resetPwdToken}/user/email",
+      "method": "GET",
+      "templated": true
+    },
+    "viaplay:universalLinkResolver": {
+      "id": "universalLinkResolver",
+      "href": "https://content.viaplay.se/androiddash-se/universalLink/{universalLink}{?dtg}",
+      "method": "GET",
+      "templated": true
+    },
+    "viaplay:userExperiments": {
+      "id": "userExperiments",
+      "href": "https://viaplay.mtg-api.com/experiments/users/{userId}",
+      "method": "GET",
+      "templated": true
+    },
+    "viaplay:tracking": {
+      "id": "tracking",
+      "href": "https://cronos-events.mtg-api.com/cronos-events/event/{brand}/androiddash-se/{clientVersion}/{sequenceNo}/{eventType}{?sessionId}",
+      "method": "POST",
+      "templated": true
+    }
+  },
+  "_embedded": {
+    "viaplay:blocks": [
+      {
+        "id": "4938474f-614c-4926-9086-b773f2d25561",
+        "type": "featurebox",
+        "styles": [
+          "featurebox",
+          "list"
+        ],
+        "client": {
+          "module": "featurebox",
+          "template": "featurebox"
+        },
+        "title": "Viaplay Featurebox",
+        "totalProductCount": 5,
+        "currentPage": 1,
+        "pageCount": 1,
+        "productsPerPage": 0,
+        "_embedded": {
+          "viaplay:frames": [
+            {
+              "title": "Utredningen",
+              "description": "Ubåtsfallet som skakade Sverige. Danskt kriminaldrama om mordet på Kim Wall.",
+              "flags": {
+                "dealOfTheWeek": false
+              },
+              "images": {
+                "desktop": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Series/theinvestigationS01SE_webxdk.jpg{?width,height}"
+                },
+                "hero169": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Series/theinvestigationS01SE_webxdk.jpg{?width,height}"
+                },
+                "hero34": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Series/theinvestigationS01SE_mob.jpg{?width,height}"
+                }
+              },
+              "promoVideos": {
+                "promoVideo169": {
+                  "href": "https://promo-videos-cdn1-viaplay-tv.akamaized.net/editorial_pages/Promos/series-investigation-the-v2_169.mp4"
+                },
+                "promoVideo34": {
+                  "href": "https://promo-videos-cdn1-viaplay-tv.akamaized.net/editorial_pages/Promos/series-investigation-the-v2_34.mp4"
+                }
+              },
+              "actions": [
+                {
+                  "text": "Läs mer",
+                  "type": "info",
+                  "product": {
+                    "type": "series",
+                    "publicPath": "utredningen",
+                    "content": {
+                      "images": {
+                        "boxart": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/278/176/1600268070-7fce727a43005764ada34bc5aa486458ac98ce1c.jpg?width=199&height=298",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/278/176/1600268070-7fce727a43005764ada34bc5aa486458ac98ce1c.jpg{?width,height}"
+                        },
+                        "landscape": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/278/176/1600268071-c131420774012c603beb1e916aef9475dc21ee5a.jpg?width=960&height=540",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/278/176/1600268071-c131420774012c603beb1e916aef9475dc21ee5a.jpg{?width,height}"
+                        },
+                        "hero169": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/278/176/1600328360-f49f3b6ecd61cb6613bfad2245abbc0a94f75224.jpg{?width,height}"
+                        },
+                        "coverart23": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/278/176/1600268070-7fce727a43005764ada34bc5aa486458ac98ce1c.jpg{?width,height}"
+                        },
+                        "coverart169": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/278/176/1600268071-c131420774012c603beb1e916aef9475dc21ee5a.jpg{?width,height}"
+                        }
+                      },
+                      "people": {
+                        "actors": [
+                          "Søren Malling",
+                          "Laura Christensen",
+                          "Dulfi Al-Jabouri",
+                          "Hans Henrik Clemmesen",
+                          "Anders Juul",
+                          "Rolf Lassgård",
+                          "Pernilla August",
+                          "Dan Boie",
+                          "Henrik Birch",
+                          "Charlotte Munck",
+                          "Pilou Asbæk",
+                          "Palmi Gudmundsson",
+                          "Gaspard Nicolas Perrier",
+                          "Hans Henrik Clemensen",
+                          "Josephine Park"
+                        ],
+                        "directors": [
+                          "Tobias Lindholm"
+                        ],
+                        "participants": [
+                          "Søren Malling",
+                          "Laura Christensen",
+                          "Dulfi Al-Jabouri",
+                          "Hans Henrik Clemmesen",
+                          "Anders Juul",
+                          "Rolf Lassgård",
+                          "Pernilla August",
+                          "Dan Boie",
+                          "Henrik Birch",
+                          "Charlotte Munck",
+                          "Pilou Asbæk",
+                          "Palmi Gudmundsson",
+                          "Gaspard Nicolas Perrier",
+                          "Hans Henrik Clemensen",
+                          "Josephine Park"
+                        ]
+                      },
+                      "parentalRating": "15",
+                      "series": {
+                        "title": "Utredningen",
+                        "synopsis": "Följer Köpenhamns mordenhet, ledd av den metodiska Jens Møller, och deras outtröttliga utredning av det mest omtalade fallet i dansk historia - mordet på svenska journalisten Kim Wall.",
+                        "season": {
+                          "title": "Utredningen",
+                          "availability": {
+                            "svod": {
+                              "start": "2021-05-08T22:01:00.000Z",
+                              "end": "2026-05-08T22:00:00.000Z"
+                            }
+                          }
+                        },
+                        "seasons": 1,
+                        "seriesGuid": "series-investigation-the"
+                      },
+                      "synopsis": "Följer Köpenhamns mordenhet, ledd av den metodiska Jens Møller, och deras outtröttliga utredning av det mest omtalade fallet i dansk historia - mordet på svenska journalisten Kim Wall.",
+                      "imdb": {
+                        "id": "tt9112152",
+                        "rating": "7.6",
+                        "votes": "3 685",
+                        "url": "http://www.imdb.com/title/tt9112152?ref_ext_viaplay"
+                      },
+                      "production": {
+                        "year": 2020
+                      }
+                    },
+                    "user": {
+                      "starred": false
+                    },
+                    "system": {
+                      "availability": {
+                        "start": "2021-05-08T22:01:00.000Z",
+                        "end": "2026-05-08T22:00:00.000Z",
+                        "planInfo": {
+                          "isRental": false,
+                          "isPurchase": false
+                        },
+                        "svod": {
+                          "start": "2021-05-08T22:01:00.000Z",
+                          "end": "2026-05-08T22:00:00.000Z",
+                          "planInfo": {
+                            "isRental": false,
+                            "isPurchase": false
+                          }
+                        },
+                        "svodOffline": {
+                          "start": "2021-05-08T22:01:00.000Z",
+                          "end": "2026-05-08T22:00:00.000Z",
+                          "startTs": 1620511260000,
+                          "endTs": 1778277600000
+                        }
+                      },
+                      "flags": [
+                        "dtg"
+                      ],
+                      "guid": "series-investigation-the",
+                      "isKids": false
+                    },
+                    "_links": {
+                      "self": {
+                        "title": "Utredningen",
+                        "href": "https://content.viaplay.se/androiddash-se/serier/utredningen?partial=true{&dtg}"
+                      },
+                      "viaplay:page": {
+                        "title": "Utredningen",
+                        "href": "https://content.viaplay.se/androiddash-se/serier/utredningen{?dtg}"
+                      },
+                      "viaplay:templatedPage": {
+                        "title": "Utredningen",
+                        "href": "https://content.viaplay.se/{deviceKey}/serier/utredningen{?dtg}"
+                      },
+                      "viaplay:genres": [
+                        {
+                          "title": "Drama",
+                          "tagId": "98856440",
+                          "href": "https://content.viaplay.se/androiddash-se/serier/drama{?dtg}"
+                        },
+                        {
+                          "title": "Kriminaldrama",
+                          "tagId": "99368197",
+                          "href": "https://content.viaplay.se/androiddash-se/serier/kriminaldrama{?dtg}"
+                        }
+                      ],
+                      "viaplay:peopleSearch": {
+                        "href": "https://content.viaplay.se/androiddash-se/search?query=\"{person}\"{&dtg}",
+                        "templated": true
+                      },
+                      "viaplay:universalLink": {
+                        "href": "https://viaplay.se/serier/utredningen"
+                      }
+                    },
+                    "notice": {
+                      "message": "User must login to view content",
+                      "code": 1002,
+                      "_links": {
+                        "curies": [
+                          {
+                            "name": "viaplay",
+                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                            "templated": true
+                          }
+                        ],
+                        "viaplay:accountPurchasePackage": {
+                          "href": "/package?recommended=viaplay",
+                          "templated": false,
+                          "redirect": false
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Magnum P.I.",
+              "description": "Svårlösta fall, solbrillor och säsongsfinal. Det här vill du inte missa.",
+              "flags": {
+                "dealOfTheWeek": false
+              },
+              "images": {
+                "desktop": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Series/magnumpiS03_webxdk.jpg{?width,height}"
+                },
+                "hero169": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Series/magnumpiS03_webxdk.jpg{?width,height}"
+                },
+                "hero34": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Series/magnumpiS03v2_mob.jpg{?width,height}"
+                }
+              },
+              "promoVideos": {
+                "promoVideo169": {
+                  "href": "https://promo-videos-cdn1-viaplay-tv.akamaized.net/editorial_pages/Promos/series-magnum-pi-s03_169.mp4"
+                },
+                "promoVideo34": {
+                  "href": "https://promo-videos-cdn1-viaplay-tv.akamaized.net/editorial_pages/Promos/series-magnum-pi-s03_34.mp4"
+                }
+              },
+              "actions": [
+                {
+                  "text": "Läs mer",
+                  "type": "info",
+                  "product": {
+                    "type": "series",
+                    "publicPath": "magnum-p.i.",
+                    "content": {
+                      "images": {
+                        "boxart": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/827/300/1611841291-ced872d63bb70e50cfccebc1ca88f1575431e1b0.jpg?width=199&height=298",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/827/300/1611841291-ced872d63bb70e50cfccebc1ca88f1575431e1b0.jpg{?width,height}"
+                        },
+                        "landscape": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/827/300/1611841293-aeffcb41f3ecb37fae750ce639690a6ea2e01600.jpg?width=960&height=540",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/827/300/1611841293-aeffcb41f3ecb37fae750ce639690a6ea2e01600.jpg{?width,height}"
+                        },
+                        "hero169": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/827/300/1611841343-7f32f516a34f95b235fc4b7740622256fc962863.jpg{?width,height}"
+                        },
+                        "coverart23": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/827/300/1611841291-ced872d63bb70e50cfccebc1ca88f1575431e1b0.jpg{?width,height}"
+                        },
+                        "coverart169": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/827/300/1611841293-aeffcb41f3ecb37fae750ce639690a6ea2e01600.jpg{?width,height}"
+                        }
+                      },
+                      "people": {
+                        "actors": [
+                          "Jay Hernandez",
+                          "Perdita Weeks",
+                          "Zachary Knighton",
+                          "Stephen Hillenburg",
+                          "Amy Hill",
+                          "Tim Kang",
+                          "Stephen Hill"
+                        ],
+                        "participants": [
+                          "Jay Hernandez",
+                          "Perdita Weeks",
+                          "Zachary Knighton",
+                          "Stephen Hillenburg",
+                          "Amy Hill",
+                          "Tim Kang",
+                          "Stephen Hill"
+                        ]
+                      },
+                      "parentalRating": "15",
+                      "series": {
+                        "title": "Magnum P.I.",
+                        "synopsis": "En kaxig före detta Navy SEAL-militär återvänder från Afghanistan, sadlar om och använder sina militära kunskaper för att börja jobba som privatdetektiv på Hawaii.",
+                        "season": {
+                          "title": "Magnum P.I.",
+                          "availability": {
+                            "svod": {
+                              "start": "2021-02-06T23:00:00.000Z",
+                              "end": "2022-02-06T23:00:00.000Z"
+                            }
+                          }
+                        },
+                        "availabilityInfo": "SÖN",
+                        "seasons": 3,
+                        "seriesGuid": "series-magnum-p.i."
+                      },
+                      "synopsis": "En kaxig före detta Navy SEAL-militär återvänder från Afghanistan, sadlar om och använder sina militära kunskaper för att börja jobba som privatdetektiv på Hawaii.",
+                      "imdb": {
+                        "id": "tt7942796",
+                        "rating": "5.8",
+                        "votes": "9 495",
+                        "url": "http://www.imdb.com/title/tt7942796?ref_ext_viaplay"
+                      },
+                      "production": {
+                        "year": 2018
+                      }
+                    },
+                    "user": {
+                      "starred": false
+                    },
+                    "system": {
+                      "availability": {
+                        "start": "2020-08-10T22:00:00.000Z",
+                        "end": "2022-02-06T23:00:00.000Z",
+                        "planInfo": {
+                          "isRental": false,
+                          "isPurchase": false
+                        },
+                        "svod": {
+                          "start": "2020-08-10T22:00:00.000Z",
+                          "end": "2022-02-06T23:00:00.000Z",
+                          "planInfo": {
+                            "isRental": false,
+                            "isPurchase": false
+                          }
+                        },
+                        "svodOffline": {
+                          "start": "2020-08-10T22:00:00.000Z",
+                          "end": "2021-09-27T21:59:00.000Z",
+                          "startTs": 1597096800000,
+                          "endTs": 1632779940000
+                        }
+                      },
+                      "flags": [],
+                      "guid": "series-magnum-p.i.",
+                      "isKids": false
+                    },
+                    "_links": {
+                      "self": {
+                        "title": "Magnum P.I.",
+                        "href": "https://content.viaplay.se/androiddash-se/serier/magnum-p.i.?partial=true{&dtg}"
+                      },
+                      "viaplay:page": {
+                        "title": "Magnum P.I.",
+                        "href": "https://content.viaplay.se/androiddash-se/serier/magnum-p.i.{?dtg}"
+                      },
+                      "viaplay:templatedPage": {
+                        "title": "Magnum P.I.",
+                        "href": "https://content.viaplay.se/{deviceKey}/serier/magnum-p.i.{?dtg}"
+                      },
+                      "viaplay:genres": [
+                        {
+                          "title": "Drama",
+                          "tagId": "98856440",
+                          "href": "https://content.viaplay.se/androiddash-se/serier/drama{?dtg}"
+                        },
+                        {
+                          "title": "Action",
+                          "tagId": "99879986",
+                          "href": "https://content.viaplay.se/androiddash-se/serier/action{?dtg}"
+                        }
+                      ],
+                      "viaplay:peopleSearch": {
+                        "href": "https://content.viaplay.se/androiddash-se/search?query=\"{person}\"{&dtg}",
+                        "templated": true
+                      },
+                      "viaplay:universalLink": {
+                        "href": "https://viaplay.se/serier/magnum-p.i."
+                      }
+                    },
+                    "notice": {
+                      "message": "User must login to view content",
+                      "code": 1002,
+                      "_links": {
+                        "curies": [
+                          {
+                            "name": "viaplay",
+                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                            "templated": true
+                          }
+                        ],
+                        "viaplay:accountPurchasePackage": {
+                          "href": "/package?recommended=viaplay",
+                          "templated": false,
+                          "redirect": false
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "title": "The Broken Hearts Gallery",
+              "description": "Dags för ett fyrverkeri av kärlek, konst och krossade hjärtan.",
+              "flags": {
+                "dealOfTheWeek": false
+              },
+              "images": {
+                "desktop": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Movies/brokenheartsgallery_webxdk.jpg{?width,height}"
+                },
+                "hero169": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Movies/brokenheartsgallery_webxdk.jpg{?width,height}"
+                },
+                "hero34": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Movies/brokenheartsgallery_mob.jpg{?width,height}"
+                }
+              },
+              "promoVideos": {
+                "promoVideo169": {
+                  "href": "https://promo-videos-cdn1-viaplay-tv.akamaized.net/editorial_pages/Promos/20654744_169.mp4"
+                },
+                "promoVideo34": {
+                  "href": "https://promo-videos-cdn1-viaplay-tv.akamaized.net/editorial_pages/Promos/20654744_34.mp4"
+                }
+              },
+              "actions": [
+                {
+                  "text": "Läs mer",
+                  "type": "info",
+                  "product": {
+                    "type": "movie",
+                    "publicPath": "the-broken-hearts-gallery-2020",
+                    "content": {
+                      "duration": {
+                        "milliseconds": 6261728,
+                        "readable": "1h 44min"
+                      },
+                      "images": {
+                        "boxart": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/787/812/1604322899-2cafc78f7853405675d2c23f9d3b67c989e7cbfa.jpg?width=199&height=298",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/787/812/1604322899-2cafc78f7853405675d2c23f9d3b67c989e7cbfa.jpg{?width,height}"
+                        },
+                        "landscape": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/787/312/1602246366-a8dfcc97c04f474d4a6fa8f395cdfd85ea751486.jpg?width=960&height=540",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/787/312/1602246366-a8dfcc97c04f474d4a6fa8f395cdfd85ea751486.jpg{?width,height}"
+                        },
+                        "packshot": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/787/812/1604322917-39d46ee9457fe0a4ed244650829d7dd3f999907d.jpg?width=960&height=540",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/787/812/1604322917-39d46ee9457fe0a4ed244650829d7dd3f999907d.jpg{?width,height}"
+                        },
+                        "hero169": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/787/312/1602246366-a8dfcc97c04f474d4a6fa8f395cdfd85ea751486.jpg{?width,height}"
+                        },
+                        "coverart23": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/787/812/1604322899-2cafc78f7853405675d2c23f9d3b67c989e7cbfa.jpg{?width,height}"
+                        },
+                        "coverart169": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/787/812/1604322917-39d46ee9457fe0a4ed244650829d7dd3f999907d.jpg{?width,height}"
+                        }
+                      },
+                      "people": {
+                        "actors": [
+                          "Geraldine Viswanathan",
+                          "Dacre Montgomery",
+                          "Utkarsh Ambudkar",
+                          "Molly Gordon",
+                          "Phillipa Soo",
+                          "Suki Waterhouse",
+                          "Taylor Hill",
+                          "Ego Nwodim",
+                          "Arturo Castro",
+                          "Bernadette Peters"
+                        ],
+                        "directors": [
+                          "Natalie Krinsky"
+                        ],
+                        "participants": [
+                          "Geraldine Viswanathan",
+                          "Dacre Montgomery",
+                          "Utkarsh Ambudkar",
+                          "Molly Gordon",
+                          "Phillipa Soo",
+                          "Suki Waterhouse",
+                          "Taylor Hill",
+                          "Ego Nwodim",
+                          "Arturo Castro",
+                          "Bernadette Peters"
+                        ]
+                      },
+                      "production": {
+                        "country": "Kanada, USA",
+                        "year": 2020
+                      },
+                      "parentalRating": "12A",
+                      "imdb": {
+                        "id": "tt2140571",
+                        "rating": "6.3",
+                        "votes": "4 638",
+                        "url": "http://www.imdb.com/title/tt2140571?ref_ext_viaplay"
+                      },
+                      "synopsis": "The Broken Hearts Gallery följer den ständigt unika Lucy, som är i 20-årsåldern, jobbar på ett konstgalleri och bor i New York, det råkar också vara så att hon är en känslomässig hoarder...",
+                      "title": "The Broken Hearts Gallery"
+                    },
+                    "user": {
+                      "starred": false,
+                      "entitled": false,
+                      "rented": false
+                    },
+                    "system": {
+                      "availability": {
+                        "start": "2020-11-22T23:00:00.000Z",
+                        "end": "2022-06-06T22:00:00.000Z",
+                        "planInfo": {
+                          "isRental": false,
+                          "isPurchase": false
+                        },
+                        "svod": {
+                          "start": "2021-05-07T22:00:00.000Z",
+                          "end": "2022-04-29T22:00:00.000Z",
+                          "planInfo": {
+                            "isRental": false,
+                            "isPurchase": false
+                          }
+                        },
+                        "tvod": {
+                          "start": "2020-11-29T23:00:00.000Z",
+                          "end": "2022-06-06T22:00:00.000Z",
+                          "planInfo": {
+                            "isRental": true,
+                            "isPurchase": false,
+                            "price": "49",
+                            "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/2442655",
+                            "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/1216",
+                            "subscriptionPeriodSeconds": 172800
+                          }
+                        },
+                        "est": {
+                          "start": "2020-11-22T23:00:00.000Z",
+                          "end": "2021-12-06T23:00:59.5959Z",
+                          "planInfo": {
+                            "isRental": true,
+                            "isPurchase": true,
+                            "price": "149",
+                            "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/2442651",
+                            "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/669367"
+                          }
+                        },
+                        "svodOffline": {
+                          "start": "2021-05-07T22:00:00.000Z",
+                          "end": "2022-04-29T22:00:00.000Z",
+                          "startTs": 1620424800000,
+                          "endTs": 1651269600000
+                        },
+                        "tvodOffline": {
+                          "start": "2020-11-29T23:00:00.000Z",
+                          "end": "2022-06-08T22:00:00.000Z",
+                          "startTs": 1606690800000,
+                          "endTs": 1654725600000
+                        },
+                        "estOffline": {
+                          "start": "2020-11-22T23:00:00.000Z",
+                          "end": "2038-01-19T03:14:07.077Z",
+                          "startTs": 1606086000000,
+                          "endTs": 2147483647000
+                        },
+                        "estPlayback": {
+                          "start": "2020-11-22T23:00:00.000Z",
+                          "end": "2038-01-19T03:14:07.077Z",
+                          "planInfo": {
+                            "isRental": true,
+                            "isPurchase": true,
+                            "price": 0
+                          }
+                        }
+                      },
+                      "flags": [
+                        "dtg",
+                        "hd",
+                        "availableInHd"
+                      ],
+                      "guid": "20654744",
+                      "productKey": "20654744",
+                      "isKids": false
+                    },
+                    "_links": {
+                      "self": {
+                        "title": "The Broken Hearts Gallery",
+                        "href": "https://content.viaplay.se/androiddash-se/film/the-broken-hearts-gallery-2020?partial=true{&dtg}"
+                      },
+                      "viaplay:page": {
+                        "title": "The Broken Hearts Gallery",
+                        "href": "https://content.viaplay.se/androiddash-se/film/the-broken-hearts-gallery-2020{?dtg}"
+                      },
+                      "viaplay:templatedPage": {
+                        "title": "The Broken Hearts Gallery",
+                        "href": "https://content.viaplay.se/{deviceKey}/film/the-broken-hearts-gallery-2020{?dtg}"
+                      },
+                      "viaplay:genres": [
+                        {
+                          "title": "Komedi",
+                          "tagId": "99368193",
+                          "href": "https://content.viaplay.se/androiddash-se/film/komedi{?dtg}"
+                        },
+                        {
+                          "title": "Romantik",
+                          "tagId": "99368206",
+                          "href": "https://content.viaplay.se/androiddash-se/film/romantik{?dtg}"
+                        }
+                      ],
+                      "viaplay:peopleSearch": {
+                        "href": "https://content.viaplay.se/androiddash-se/search?query=\"{person}\"{&dtg}",
+                        "templated": true
+                      },
+                      "viaplay:universalLink": {
+                        "href": "https://viaplay.se/film/the-broken-hearts-gallery-2020"
+                      }
+                    },
+                    "notice": {
+                      "message": "User must login to view content",
+                      "code": 1002,
+                      "_links": {
+                        "curies": [
+                          {
+                            "name": "viaplay",
+                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                            "templated": true
+                          }
+                        ],
+                        "viaplay:accountPurchasePackage": {
+                          "href": "/package?recommended=viaplay",
+                          "templated": false,
+                          "redirect": false
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "title": "The IMITATION GAME",
+              "description": "Verklighetsbaserat och Oscarsbelönat. Om genierna som avgjorde kriget.",
+              "flags": {
+                "dealOfTheWeek": false
+              },
+              "images": {
+                "desktop": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Movies/theimitationgame_webxdk.jpg{?width,height}"
+                },
+                "hero169": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Movies/theimitationgame_webxdk.jpg{?width,height}"
+                },
+                "hero34": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Movies/theimitationgame_mob.jpg{?width,height}"
+                }
+              },
+              "promoVideos": {
+                "promoVideo169": {
+                  "href": "https://promo-videos-cdn1-viaplay-tv.akamaized.net/editorial_pages/Promos/V59201_169.mp4"
+                },
+                "promoVideo34": {
+                  "href": "https://promo-videos-cdn1-viaplay-tv.akamaized.net/editorial_pages/Promos/V59201_34.mp4"
+                }
+              },
+              "actions": [
+                {
+                  "text": "Läs mer",
+                  "type": "info",
+                  "product": {
+                    "type": "movie",
+                    "publicPath": "the-imitation-game-2014",
+                    "content": {
+                      "duration": {
+                        "milliseconds": 6571000,
+                        "readable": "1h 49min"
+                      },
+                      "images": {
+                        "boxart": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/33/320/1460160805-6317c53840e581222806381280cc5081f0c6caef.jpg?width=199&height=298",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/33/320/1460160805-6317c53840e581222806381280cc5081f0c6caef.jpg{?width,height}"
+                        },
+                        "landscape": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/33/320/1460160805-e082a90856913748e143760ca581a480d2c87a7d.jpg?width=960&height=540",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/33/320/1460160805-e082a90856913748e143760ca581a480d2c87a7d.jpg{?width,height}"
+                        },
+                        "packshot": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/33/320/1460160805-283cc213a3b9f42447d326ccf9ad5f87b9b70d8c.jpg?width=960&height=540",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/33/320/1460160805-283cc213a3b9f42447d326ccf9ad5f87b9b70d8c.jpg{?width,height}"
+                        },
+                        "hero169": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/33/320/1460160805-e082a90856913748e143760ca581a480d2c87a7d.jpg{?width,height}"
+                        },
+                        "coverart23": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/33/320/1460160805-6317c53840e581222806381280cc5081f0c6caef.jpg{?width,height}"
+                        },
+                        "coverart169": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/33/320/1460160805-283cc213a3b9f42447d326ccf9ad5f87b9b70d8c.jpg{?width,height}"
+                        }
+                      },
+                      "people": {
+                        "actors": [
+                          "Benedict Cumberbatch",
+                          "Keira Knightley",
+                          "Matthew Goode",
+                          "Rory Kinnear",
+                          "Allen Leech",
+                          "Matthew Beard",
+                          "Charles Dance",
+                          "Mark Strong",
+                          "Alex Lawther"
+                        ],
+                        "directors": [
+                          "Morten Tyldum"
+                        ],
+                        "participants": [
+                          "Benedict Cumberbatch",
+                          "Keira Knightley",
+                          "Matthew Goode",
+                          "Rory Kinnear",
+                          "Allen Leech",
+                          "Matthew Beard",
+                          "Charles Dance",
+                          "Mark Strong",
+                          "Alex Lawther"
+                        ]
+                      },
+                      "production": {
+                        "country": "USA, Storbritannien",
+                        "year": 2014
+                      },
+                      "parentalRating": "PG",
+                      "imdb": {
+                        "id": "tt2084970",
+                        "rating": "8.0",
+                        "votes": "697 185",
+                        "url": "http://www.imdb.com/title/tt2084970?ref_ext_viaplay"
+                      },
+                      "synopsis": "En vinterdag 1952 tog brittiska myndigheter sig in i matematikern, krypteringsexperten och krigshjälten Alan Turings hem för att undersöka ett inbrott.",
+                      "title": "The IMITATION GAME"
+                    },
+                    "user": {
+                      "starred": false,
+                      "entitled": false,
+                      "rented": false
+                    },
+                    "system": {
+                      "availability": {
+                        "start": "2015-10-06T22:00:00.000Z",
+                        "end": "2038-01-19T03:14:07.077Z",
+                        "planInfo": {
+                          "isRental": false,
+                          "isPurchase": false
+                        },
+                        "svod": {
+                          "start": "2021-04-30T22:00:00.000Z",
+                          "end": "2023-04-30T22:00:00.000Z",
+                          "planInfo": {
+                            "isRental": false,
+                            "isPurchase": false
+                          }
+                        },
+                        "tvod": {
+                          "start": "2015-10-06T22:00:00.000Z",
+                          "end": "2038-01-19T03:14:07.077Z",
+                          "planInfo": {
+                            "isRental": true,
+                            "isPurchase": false,
+                            "price": "39",
+                            "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/2564017",
+                            "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/1217",
+                            "subscriptionPeriodSeconds": 172800
+                          }
+                        },
+                        "est": {
+                          "start": "2019-10-31T23:00:00.000Z",
+                          "end": "2038-01-19T03:14:07.077Z",
+                          "planInfo": {
+                            "isRental": true,
+                            "isPurchase": true,
+                            "price": "79",
+                            "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/2564014",
+                            "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/665092"
+                          }
+                        },
+                        "svodOffline": {
+                          "start": "2021-04-30T22:00:00.000Z",
+                          "end": "2023-04-30T22:00:00.000Z",
+                          "startTs": 1619820000000,
+                          "endTs": 1682892000000
+                        },
+                        "tvodOffline": {
+                          "start": "2015-10-06T22:00:00.000Z",
+                          "end": "2038-01-21T03:14:07.077Z",
+                          "startTs": 1444168800000,
+                          "endTs": 2147656447000
+                        },
+                        "estOffline": {
+                          "start": "2019-10-31T23:00:00.000Z",
+                          "end": "2038-01-19T03:14:07.077Z",
+                          "startTs": 1572562800000,
+                          "endTs": 2147483647000
+                        },
+                        "estPlayback": {
+                          "start": "2019-10-31T23:00:00.000Z",
+                          "end": "2038-01-19T03:14:07.077Z",
+                          "planInfo": {
+                            "isRental": true,
+                            "isPurchase": true,
+                            "price": 0
+                          }
+                        }
+                      },
+                      "flags": [
+                        "dtg",
+                        "hd",
+                        "availableInHd"
+                      ],
+                      "guid": "V59201",
+                      "productKey": "V59201",
+                      "isKids": false
+                    },
+                    "_links": {
+                      "self": {
+                        "title": "The IMITATION GAME",
+                        "href": "https://content.viaplay.se/androiddash-se/film/the-imitation-game-2014?partial=true{&dtg}"
+                      },
+                      "viaplay:page": {
+                        "title": "The IMITATION GAME",
+                        "href": "https://content.viaplay.se/androiddash-se/film/the-imitation-game-2014{?dtg}"
+                      },
+                      "viaplay:templatedPage": {
+                        "title": "The IMITATION GAME",
+                        "href": "https://content.viaplay.se/{deviceKey}/film/the-imitation-game-2014{?dtg}"
+                      },
+                      "viaplay:genres": [
+                        {
+                          "title": "Thriller",
+                          "tagId": "99368200",
+                          "href": "https://content.viaplay.se/androiddash-se/film/thriller{?dtg}"
+                        }
+                      ],
+                      "viaplay:peopleSearch": {
+                        "href": "https://content.viaplay.se/androiddash-se/search?query=\"{person}\"{&dtg}",
+                        "templated": true
+                      },
+                      "viaplay:trailerStream": {
+                        "href": "https://play.viaplay.se/api/trailer/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=10-5240-112B-3380-1662-2259-269D-8&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fandroiddash-se&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fandroiddash-se%2Fbyguid%2F10-5240-112B-3380-1662-2259-269D-8%3FparentProgramGuid%3DV59201%7B%26dtg%7D&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Fbyguid%2F10-5240-112B-3380-1662-2259-269D-8%3FparentProgramGuid%3DV59201%7B%26dtg%7D&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                        "templated": true
+                      },
+                      "viaplay:trailerSelf": {
+                        "title": "The IMITATION GAME",
+                        "href": "https://content.viaplay.se/androiddash-se/byguid/10-5240-112B-3380-1662-2259-269D-8?parentProgramGuid=V59201&partial=true{&dtg}"
+                      },
+                      "viaplay:universalLink": {
+                        "href": "https://viaplay.se/film/the-imitation-game-2014"
+                      }
+                    },
+                    "notice": {
+                      "message": "User must login to view content",
+                      "code": 1002,
+                      "_links": {
+                        "curies": [
+                          {
+                            "name": "viaplay",
+                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                            "templated": true
+                          }
+                        ],
+                        "viaplay:accountPurchasePackage": {
+                          "href": "/package?recommended=viaplay",
+                          "templated": false,
+                          "redirect": false
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Sniper: Assassin's End",
+              "description": "Pricksäkert och actionpackat. Kampen för överlevnad har aldrig varit tuffare.",
+              "flags": {
+                "dealOfTheWeek": false
+              },
+              "images": {
+                "desktop": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Movies/sniperassassinsend_webxdk.jpg{?width,height}"
+                },
+                "hero169": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Movies/sniperassassinsend_webxdk.jpg{?width,height}"
+                },
+                "hero34": {
+                  "template": "https://images-cdn2-vp.cdn.viaplay.tv/viastream/editorial_pages/featurebox/Movies/sniperassassinsend_mob.jpg{?width,height}"
+                }
+              },
+              "promoVideos": {
+                "promoVideo169": {
+                  "href": "https://promo-videos-cdn1-viaplay-tv.akamaized.net/editorial_pages/Promos/20629698_169.mp4"
+                },
+                "promoVideo34": {
+                  "href": "https://promo-videos-cdn1-viaplay-tv.akamaized.net/editorial_pages/Promos/20629698_34.mp4"
+                }
+              },
+              "actions": [
+                {
+                  "text": "Läs mer",
+                  "type": "info",
+                  "product": {
+                    "type": "movie",
+                    "publicPath": "sniper-assassins-end-2020",
+                    "content": {
+                      "duration": {
+                        "milliseconds": 5471296,
+                        "readable": "1h 31min"
+                      },
+                      "images": {
+                        "boxart": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/916/760/1596533713-f59929c3a08d899eeebdf0182c186e23ff232233.jpg?width=199&height=298",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/916/760/1596533713-f59929c3a08d899eeebdf0182c186e23ff232233.jpg{?width,height}"
+                        },
+                        "landscape": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/916/760/1596533713-c1aaa4757ef9506c1c4a9ece5facd1d85096b6f9.jpg?width=960&height=540",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/916/760/1596533713-c1aaa4757ef9506c1c4a9ece5facd1d85096b6f9.jpg{?width,height}"
+                        },
+                        "packshot": {
+                          "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/916/760/1596533712-348b69429da14283c671086e6b855f2170263b4a.jpg?width=960&height=540",
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/916/760/1596533712-348b69429da14283c671086e6b855f2170263b4a.jpg{?width,height}"
+                        },
+                        "hero169": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/916/760/1596533713-c1aaa4757ef9506c1c4a9ece5facd1d85096b6f9.jpg{?width,height}"
+                        },
+                        "coverart23": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/916/760/1596533713-f59929c3a08d899eeebdf0182c186e23ff232233.jpg{?width,height}"
+                        },
+                        "coverart169": {
+                          "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/916/760/1596533712-348b69429da14283c671086e6b855f2170263b4a.jpg{?width,height}"
+                        }
+                      },
+                      "people": {
+                        "actors": [
+                          "Chad Michael Collins",
+                          "Sayaka Akimoto",
+                          "Tom Berenger",
+                          "Ryan Robbins",
+                          "Lochlyn Munro",
+                          "Emily Tennant",
+                          "Michael Jonsson",
+                          "C. Ernst Harth",
+                          "Sean Kohnke"
+                        ],
+                        "directors": [
+                          "Kaare Andrews"
+                        ],
+                        "participants": [
+                          "Chad Michael Collins",
+                          "Sayaka Akimoto",
+                          "Tom Berenger",
+                          "Ryan Robbins",
+                          "Lochlyn Munro",
+                          "Emily Tennant",
+                          "Michael Jonsson",
+                          "C. Ernst Harth",
+                          "Sean Kohnke"
+                        ]
+                      },
+                      "production": {
+                        "country": "USA",
+                        "year": 2020
+                      },
+                      "parentalRating": "15",
+                      "synopsis": "När krypskytten Brandon Beckett anklagas för att ha mördat en utländsk ämbetsman, vänder han sig till sin far, legendariske skytten Sgt. Thomas Beckett för hjälp.",
+                      "title": "Sniper: Assassin's End"
+                    },
+                    "user": {
+                      "starred": false,
+                      "entitled": false,
+                      "rented": false
+                    },
+                    "system": {
+                      "availability": {
+                        "start": "2020-08-02T22:00:00.000Z",
+                        "end": "2038-01-19T03:14:07.077Z",
+                        "planInfo": {
+                          "isRental": false,
+                          "isPurchase": false
+                        },
+                        "svod": {
+                          "start": "2021-05-06T22:00:00.000Z",
+                          "end": "2022-04-30T22:00:00.000Z",
+                          "planInfo": {
+                            "isRental": false,
+                            "isPurchase": false
+                          }
+                        },
+                        "tvod": {
+                          "start": "2020-08-02T22:00:00.000Z",
+                          "end": "2022-01-29T23:01:00.000Z",
+                          "planInfo": {
+                            "isRental": true,
+                            "isPurchase": false,
+                            "price": "49",
+                            "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/2469080",
+                            "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/1216",
+                            "subscriptionPeriodSeconds": 172800
+                          }
+                        },
+                        "est": {
+                          "start": "2020-08-31T22:00:00.000Z",
+                          "end": "2038-01-19T03:14:07.077Z",
+                          "planInfo": {
+                            "isRental": true,
+                            "isPurchase": true,
+                            "price": "99",
+                            "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/2396275",
+                            "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/665093"
+                          }
+                        },
+                        "svodOffline": {
+                          "start": "2021-05-06T22:00:00.000Z",
+                          "end": "2022-04-30T22:00:00.000Z",
+                          "startTs": 1620338400000,
+                          "endTs": 1651356000000
+                        },
+                        "tvodOffline": {
+                          "start": "2020-08-02T22:00:00.000Z",
+                          "end": "2022-01-31T23:01:00.000Z",
+                          "startTs": 1596405600000,
+                          "endTs": 1643670060000
+                        },
+                        "estOffline": {
+                          "start": "2020-08-31T22:00:00.000Z",
+                          "end": "2038-01-19T03:14:07.077Z",
+                          "startTs": 1598911200000,
+                          "endTs": 2147483647000
+                        },
+                        "estPlayback": {
+                          "start": "2020-08-31T22:00:00.000Z",
+                          "end": "2038-01-19T03:14:07.077Z",
+                          "planInfo": {
+                            "isRental": true,
+                            "isPurchase": true,
+                            "price": 0
+                          }
+                        }
+                      },
+                      "flags": [
+                        "dtg",
+                        "hd",
+                        "availableInHd"
+                      ],
+                      "guid": "20629698",
+                      "productKey": "20629698",
+                      "isKids": false
+                    },
+                    "_links": {
+                      "self": {
+                        "title": "Sniper: Assassin's End",
+                        "href": "https://content.viaplay.se/androiddash-se/film/sniper-assassins-end-2020?partial=true{&dtg}"
+                      },
+                      "viaplay:page": {
+                        "title": "Sniper: Assassin's End",
+                        "href": "https://content.viaplay.se/androiddash-se/film/sniper-assassins-end-2020{?dtg}"
+                      },
+                      "viaplay:templatedPage": {
+                        "title": "Sniper: Assassin's End",
+                        "href": "https://content.viaplay.se/{deviceKey}/film/sniper-assassins-end-2020{?dtg}"
+                      },
+                      "viaplay:genres": [
+                        {
+                          "title": "Action",
+                          "tagId": "99879986",
+                          "href": "https://content.viaplay.se/androiddash-se/film/action{?dtg}"
+                        }
+                      ],
+                      "viaplay:peopleSearch": {
+                        "href": "https://content.viaplay.se/androiddash-se/search?query=\"{person}\"{&dtg}",
+                        "templated": true
+                      },
+                      "viaplay:universalLink": {
+                        "href": "https://viaplay.se/film/sniper-assassins-end-2020"
+                      }
+                    },
+                    "notice": {
+                      "message": "User must login to view content",
+                      "code": 1002,
+                      "_links": {
+                        "curies": [
+                          {
+                            "name": "viaplay",
+                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                            "templated": true
+                          }
+                        ],
+                        "viaplay:accountPurchasePackage": {
+                          "href": "/package?recommended=viaplay",
+                          "templated": false,
+                          "redirect": false
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "responseCode": {
+    "httpStatus": 200,
+    "statusCode": 200,
+    "code": 1
+  }
+}

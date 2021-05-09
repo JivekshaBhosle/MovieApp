@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/error_retry_view_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/error_retry_view_image"
+        android:layout_width="180dp"
+        android:layout_height="@dimen/dimen_120"
+        android:src="@drawable/retry"
+        app:layout_constraintBottom_toTopOf="@+id/error_retry_view_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/error_retry_view_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/dimen_16"
+        android:text="@string/retry_text"
+        android:textColor="@color/grey_60"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/error_retry_view_image"
+        app:layout_constraintRight_toRightOf="@id/error_retry_view_image"
+        app:layout_constraintTop_toBottomOf="@+id/error_retry_view_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>
