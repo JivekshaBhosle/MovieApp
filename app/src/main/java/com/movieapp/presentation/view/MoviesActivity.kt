@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.movieapp.R
 import com.movieapp.presentation.MoviesAdapter
-import com.movieapp.presentation.viewmodel.UIState
+import com.movieapp.presentation.viewmodel.state.UIState
 import com.movieapp.presentation.viewmodel.ViewModelMovie
 import com.movieapp.presentation.viewmodel.factory.ViewModelMovieFactory
 import kotlinx.android.synthetic.main.activity_movie.*

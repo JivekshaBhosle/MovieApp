@@ -9,7 +9,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.Target
 import com.movieapp.R
 import com.movieapp.domain.model.MovieDetail
-import com.movieapp.presentation.viewmodel.UIDetailState
+import com.movieapp.presentation.viewmodel.state.UIDetailState
 import com.movieapp.presentation.viewmodel.ViewModelDetail
 import com.movieapp.presentation.viewmodel.factory.ViewModelDetailFactory
 import kotlinx.android.synthetic.main.activity_detail.*

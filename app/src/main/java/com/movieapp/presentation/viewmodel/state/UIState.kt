@@ -1,4 +1,4 @@
-package com.movieapp.presentation.viewmodel
+package com.movieapp.presentation.viewmodel.state
 
 import com.movieapp.domain.model.MovieSection
 

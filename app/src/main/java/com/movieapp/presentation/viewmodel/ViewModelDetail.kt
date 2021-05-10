@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.movieapp.domain.model.MovieDetail
 import com.movieapp.domain.repository.IRepositoryMovies
 import com.movieapp.domain.usecase.UseCaseMovieDetailsGet
+import com.movieapp.presentation.viewmodel.state.UIDetailState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
